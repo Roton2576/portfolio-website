@@ -1,0 +1,24 @@
+.bgColorOfNavbar{
+     background-color: #0B032D;
+     box-shadow: 0px 0px 12px 0px #17926E;
+     position: relative;
+     position: sticky;
+     top: 0;
+}
+.navbarImage{
+     height: 60px;
+}
+
+
+
+@media only screen and (max-width: 688px) {
+     .navbarImage{
+          display: none;
+     }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+     .navbarImage{
+          display: none;
+     }
+}

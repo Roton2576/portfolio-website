@@ -1,0 +1,28 @@
+.headersContainer{
+     width: 100%;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.74)), url('https://i.ibb.co/6H7DxxZ/bgHome.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     font-family: 'Ubuntu', sans-serif;
+}
+.headersContent{
+     padding-top: 190px;
+}
+.headersContent h1{
+     font-size: 60px;
+}
+.headersContentButton{
+     padding: 12px 70px 12px 70px;
+     border-radius: 17px;
+     font-weight: bold;
+     font-size: 18px;
+     border: 4px solid #198754;
+     transition: .9s;
+}
+.headersContainer button:hover{
+     transition: .9s;
+}
+
+
+
