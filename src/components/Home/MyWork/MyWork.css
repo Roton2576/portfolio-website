@@ -1,8 +1,17 @@
 .myWorkMainDiv{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     grid-gap: 25px;
 }
+.livePreviewBgColor{
+     text-decoration: none;
+     color: #fff;
+     background-color: black;
+     padding: 10px 20px;
+     font-size: 20px;
+     border-radius: 20px;
+     border: 5px solid #20C997;
+}
+
 .singleWorkFirst{
      transition: .5s;
 }
@@ -12,6 +21,7 @@
 }
 
 
+
 @media only screen and (max-width: 688px) {
      .singleWorkFirst{
           width: 360px;
@@ -19,7 +29,7 @@
      .myWorkMainDiv{
           display: grid;
           grid-template-columns: repeat(1, 1fr);
-          grid-gap: 20px;
+          grid-gap: 10px;
      }
 }
 
@@ -30,6 +40,6 @@
      .myWorkMainDiv{
           display: grid;
           grid-template-columns: repeat(1, 1fr);
-          grid-gap: 20px;
+          grid-gap: 15px;
      }
 }

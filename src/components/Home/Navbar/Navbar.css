@@ -8,7 +8,14 @@
 .navbarImage{
      height: 60px;
 }
-
+.myBlogMainDiv{
+     background-color: #0B032D;
+     padding: 350px 0;
+}
+.myBlogMainDiv h1{
+     color: #fff;
+     font-size: 70px;
+}
 
 
 @media only screen and (max-width: 688px) {

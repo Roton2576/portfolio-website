@@ -1,38 +1,45 @@
 import React from 'react'
 import './MyWork.css'
+import { Link } from "react-router-dom";
 
 const MyWork = () => {
+
      return (
           <div className="myWorkMainDiv">
-               <div className="singleWorkFirst shadow p-1 mb-5 bg-white rounded">
+               <div className="singleWorkFirst shadow p-1 mb-5 bg-white rounded h-75 w-75">
                     
-                    <img src="https://i.ibb.co/cg3RNzX/final-First-Site-Img.png" className="img-fluid" alt="" />
+                    <img src="https://i.ibb.co/cg3RNzX/final-First-Site-Img.png" className="img-fluid h-100 w-100 singleWorkFirstImages" alt="" />
                     
-                    {/* <div className="d-flex justify-content-between mt-4">
-                         <h6> <a href="https://github.com/Roton2576/hondacar24" target="_blank" className="livePreviewBgColor"> GitHub </a> </h6>
-                         <h6> <a href="https://car-sell-website.web.app/" target="_blank" className="livePreviewBgColor"> Live Preview </a> </h6>
-                    </div> */}
+                    <div className="d-flex justify-content-between mt-4 singleWorkFirstImageErNiche">
+                         <Link to="/hondacarsite">
+                              <button className="livePreviewBgColor mx-auto"> More Details </button>
+                         </Link>
+                    </div>
+
                </div>
 
-               <div className="singleWorkFirst shadow p-1 mb-5 bg-white rounded">
+               <div className="singleWorkFirst shadow p-1 mb-5 bg-white rounded h-75 w-75">
                     
-                    <img src="https://i.ibb.co/RCRMYnZ/final-Sec-Site-Img.png" className="img-fluid" alt="" />
+                    <img src="https://i.ibb.co/RCRMYnZ/final-Sec-Site-Img.png" className="img-fluid h-100 w-100 singleWorkFirstImages" alt="" />
                
-                    {/* <div className="d-flex justify-content-between mt-4">
-                         <h6> <a href="https://github.com/Roton2576/medical-care-client" target="_blank" className="livePreviewBgColor"> GitHub </a> </h6>
-                         <h6> <a href="https://assignment-ten-1a023.web.app/" target="_blank" className="livePreviewBgColor"> Live Preview </a> </h6>
-                    </div> */}
+                    <div className="d-flex justify-content-between mt-4 singleWorkFirstImageErNiche">
+                         <Link to="/medicalsite">
+                              <button className="livePreviewBgColor mx-auto"> More Details </button>
+                         </Link>
+                    </div>
                </div>
 
-               <div className="singleWorkFirst shadow p-1 mb-5 bg-white rounded">
+               <div className="singleWorkFirst shadow p-1 mb-5 bg-white rounded h-75 w-75">
                     
-                    <img src="https://i.ibb.co/gVHtQDz/fina-Third-Site-Img.png"          className="img-fluid" alt="" /> 
+                    <img src="https://i.ibb.co/gVHtQDz/fina-Third-Site-Img.png"          className="img-fluid h-100 w-100 singleWorkFirstImages" alt="" /> 
                     
                     
-                    {/* <div className="d-flex justify-content-between mt-4">
-                         <h6> <a href="https://github.com/Roton2576/our-developer-community" target="_blank" className="livePreviewBgColor"> GitHub </a> </h6>
-                         <h6> <a href="https://vibrant-darwin-62756d.netlify.app/" target="_blank" className="livePreviewBgColor"> Live Preview </a> </h6>
-                    </div> */}
+                    <div className="d-flex justify-content-between mt-4 singleWorkFirstImageErNiche">
+                         <Link to="/developersite">
+                              <button className="livePreviewBgColor mx-auto"> More Details </button>
+                         </Link>
+                         
+                    </div>
                </div>
           </div>
      )
